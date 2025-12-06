@@ -1,0 +1,28 @@
+# >>> ignorar lixo de sessão/cache do whatsapp-web.js
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Dependências e builds
+node_modules/
+dist/
+build/
+.out/
+.cache/
+
+# Arquivos de dados locais (tira do repo, se forem só resultados/planilhas)
+*.csv
+*.xlsx
+
+# Arquivos de sistema
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Logs e configs locais
+*.log
+.env
+.env.*
